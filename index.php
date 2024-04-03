@@ -10,6 +10,6 @@
 		<h3> Autor: ramave</h3>
 		<h3> Correu: 456982.clot@fje.edu</h3>
 		<h3> Github: https://github.com/raumar23daw2</h3>
-		<a href="http://zend-ramave.fjeclot.net/autent/login.php">Inicia sessió</a>
+		<a href="http://zend-ramave.fjeclot.net/m08uf23/login.php">Inicia sessió</a>
 	</body>
 </html>
