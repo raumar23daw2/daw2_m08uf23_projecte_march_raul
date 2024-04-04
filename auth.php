@@ -20,6 +20,9 @@ if ($_POST['cts'] && $_POST['adm']){
         header("location: menu.php");
     } catch (Exception $e){
         echo "<b>Contrasenya incorrecta</b><br><br>";
+        echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/login.php">
+                  <input type="submit" value="Tornar enrere">
+              </form>';
     }
 }
 ?>
