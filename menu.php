@@ -6,10 +6,10 @@
 	</head>
 	<body>
 		<h2> MENÚ PRINCIPAL DE GESTIO</h2>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/visualitza.php"> <b>Visualitza</b> <br></a>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/afegir.php"> <b>Afegeix</b> <br></a>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/esborra.php"> <b>Esborra</b> <br></a>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/edita.php"> <b>Edita</b> <br></a>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/index.php">Torna a la pàgina inicial</a>
+		<a href="https://zends-ramave/m08uf23_projecte/visualitza.php"> <b>Visualitza</b> <br></a>
+		<a href="https://zends-ramave/m08uf23_projecte/afegir.php"> <b>Afegeix</b> <br></a>
+		<a href="https://zends-ramave/m08uf23_projecte/esborra.php"> <b>Esborra</b> <br></a>
+		<a href="https://zends-ramave/m08uf23_projecte/edita.php"> <b>Edita</b> <br></a>
+		<a href="https://zends-ramave/m08uf23_projecte/index.php">Torna a la pàgina inicial</a>
 	</body>
 </html>

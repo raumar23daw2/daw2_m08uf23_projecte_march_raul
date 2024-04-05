@@ -20,7 +20,8 @@ if ($_GET['usr'] && $_GET['ou']){
     foreach ($usuari as $atribut => $dada) {
         if ($atribut != "dn") echo $atribut.": ".$dada[0].'<br>';
     }
-    echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/menu.php">
+    echo '<p>No existeix<p>';
+    echo '<form action="https://zends-ramave/m08uf23_projecte/menu.php">
                   <input type="submit" value="Tornar al menu">
               </form>';
 }

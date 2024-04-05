@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Attribute::setAttribute($nova_entrada, 'description', $descripcio);
     $dn = 'uid=' . $uid . ',ou=' . $unorg . ',dc=fjeclot,dc=net';
     if ($ldap->add($dn, $nova_entrada)) echo "Usuari creat";
-    echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/menu.php">
+    echo '<form action="https://zends-ramave/m08uf23_projecte/menu.php">
                   <input type="submit" value="Tornar al menu">
               </form>';
 }

@@ -29,12 +29,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if ($ldap->update($dn, $newValueArray)) {
         echo "Atribut '$attrToModify' de l'usuari '$uid' modificat amb èxit";
-        echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/menu.php">
+        echo '<form action="https://zends-ramave/m08uf23_projecte/menu.php">
                   <input type="submit" value="Tornar al menu">
               </form>';
     } else {
         echo "Error: No s'ha pogut modificar l'atribut '$attrToModify' de l'usuari '$uid'";
-        echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/edita.php">
+        echo '<form action="https://zends-ramave/m08uf23_projecte/edita.php">
                   <input type="submit" value="Tornar">
               </form>';
     }
