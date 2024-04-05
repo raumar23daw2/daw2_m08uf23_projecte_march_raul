@@ -6,13 +6,11 @@ use Laminas\Ldap\Attribute;
 ini_set('display_errors', 0);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    # Obtener los datos del formulario
     $uid = $_POST['uid'];
     $unorg = $_POST['unidad_organizativa'];
     $attrToModify = $_POST['attribute'];
     $newValue = $_POST['new_value'];
     
-    # Establecer la conexión LDAP
     $domini = 'dc=fjeclot,dc=net';
     $opcions = [
         'host' => 'zend-ramave.fjeclot.net',
@@ -25,13 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ldap = new Ldap($opcions);
     $ldap->bind();
     
-    # Construir el DN del usuario a modificar
     $dn = 'uid=' . $uid . ',ou=' . $unorg . ',dc=fjeclot,dc=net';
     
-    # Construir el nuevo valor del atributo a modificar
     $newValueArray = [$attrToModify => $newValue];
     
-    # Intentar modificar el atributo del usuario
     if ($ldap->update($dn, $newValueArray)) {
         echo "Atribut '$attrToModify' de l'usuari '$uid' modificat amb èxit";
         echo '<form action="http://zend-ramave.fjeclot.net/m08uf23/menu.php">

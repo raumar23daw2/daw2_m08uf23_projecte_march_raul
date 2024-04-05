@@ -11,5 +11,6 @@
 			<input type="submit" value="Envia" />
 			<input type="reset" value="Neteja" />
 		</form>
+		<a href="http://zend-ramave.fjeclot.net/m08uf23">Inici</a>
 	</body>
 </html>

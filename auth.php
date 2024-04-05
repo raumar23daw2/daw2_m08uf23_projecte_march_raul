@@ -26,13 +26,14 @@ if ($_POST['cts'] && $_POST['adm']){
     }
 }
 ?>
+
 <html>
 	<head>
 		<title>
-			AUTENTICACIÓ AMB LDAP 
+			Error
 		</title>
 	</head>
 	<body>
-		<a href="http://zend-ramave.fjeclot.net/m08uf23/index.php">Torna a la pàgina inicial</a>
+		<a href="http://zend-ramave.fjeclot.net/m08uf23">Inici</a>
 	</body>
 </html>
